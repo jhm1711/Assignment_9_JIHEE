@@ -1,0 +1,101 @@
+#svg-container {
+  /* border: 1px solid red; */
+  width: 98%;
+  max-width: 900px;
+  height: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#svg {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+  /* background-color: #f7f7f7; */
+}
+
+h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 150;
+  font-style: normal;
+}
+
+.tick {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 200;
+  color: #2c2c2c;
+}
+
+/* .y-axis .domain {
+  display: none;
+} */
+/* .y-axis .tick line {
+  stroke: #dfdfdf;
+} */
+
+.domain {
+  stroke: #8c8c8c;
+}
+
+.axisText {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.legend-texts {
+  font-family: "DM Sans", sans-serif;
+  font-size: 10px;
+  text-transform: capitalize;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: #000000;
+  font-size: 26px;
+  font-weight: 400;
+  padding: 0px 6px;
+  border-radius: 6px;
+  /* border: 1px solid #000000; */
+  display: none;
+}
+
+/* Buttons */
+.button-container {
+  width: 98%;
+  max-width: 900px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.button-container button {
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 3px;
+}
+/* .button-container button:hover {
+  background-color: rgba(0, 0, 0, 0.13);
+} */
+
+.button-clicked {
+  background-color: #111 !important;
+  color: #fff;
+}
+/* .button-released {
+  background-color: rgba(0, 0, 0, 0);
+  color: #000;
+} */
+
+.bubble {
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 150;
+  font-style: thin;
+}
